@@ -10,14 +10,41 @@
 
 		  gtag('config', 'UA-67168720-2');
 		</script>		
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="Motorcycle Repair located in Tampa, FL. We sell 1000's of new and used cycle salvage parts. We specialize in Honda, Kawasaki, Suzuki and Yamaha motorcycles.">
+		<link rel="stylesheet" href="westCoastStyle.css" type="text/css">
         <title>West Coast Cycle | Tampa, FL</title>
     </head>
     <body>
-        <p>For 30 years we have been a family owned and operated independent Motorcycle dealer and repair shop for all Japanese motorcycles; Kawasaki, Honda, Suzuki and Yamaha and occasionally USA made Harley Davidson.</p>
-        <p>We specialize in major or minor motorcycle repair of these brands as well as locating and selling used parts and accessories. Large selection of O.E.M. new and used Salvage motorcycle parts on site.</p>
-        <p>We are the oldest motorcycle repair and salvage parts shop in Tampa. We opened in 1982 and have been serving the Tampa Bay area ever since. Our goal is to make your experience with us a pleasant and affordable one.</p>
-        <p>West Coast Cycle Inc<br>4511 Causeway Blvd<br>Tampa Florida 33619</p>
+<!--
+
+		<img id="door" src="garage/garageDoor.png">
+		<img id="bldg" src="garage/garageBldg.png">
+-->
+		<div id="garagePix">
+			<div id="door">
+				<img src="garage/garageDoor.png">
+			</div>
+
+			<div id="bldg">
+				<img src="garage/garageBldg.png">
+			</div>
+		</div>
+		<div id="main">
+			<p>For 30 years we have been a family owned and operated independent Motorcycle dealer and repair shop for all Japanese motorcycles; Kawasaki, Honda, Suzuki and Yamaha and occasionally USA made Harley Davidson.</p>
+			<p>We specialize in major or minor motorcycle repair of these brands as well as locating and selling used parts and accessories. Large selection of O.E.M. new and used Salvage motorcycle parts on site.</p>
+			<p>We are the oldest motorcycle repair and salvage parts shop in Tampa. We opened in 1982 and have been serving the Tampa Bay area ever since. Our goal is to make your experience with us a pleasant and affordable one.</p>
+			<p>West Coast Cycle Inc<br>4511 Causeway Blvd<br>Tampa Florida 33619</p>
+		</div>
+		
+		<script>
+			$(document).ready(function(){
+				$("#door").animate({
+					'marginTop': "-=600px",
+				}, 1000);
+			});
+		</script>
+
     </body>
 </html>
