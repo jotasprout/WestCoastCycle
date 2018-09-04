@@ -20,8 +20,15 @@ p {
 	animation-name: slidein;
 }
 
-#bldg {
+#reveal {
 	z-index: 1;
+	position: absolute;
+	top: 300px;
+	left: 400px;
+}
+
+#bldg {
+	z-index: 2;
 	position: absolute;
 	top: 0;
 	left: 0;
