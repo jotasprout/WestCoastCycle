@@ -13,10 +13,6 @@ p {
 	padding: 10px;
 }
 
-ul.menu li {
-    display: inline;
-}
-
 #garagePix {
 	display: none;
 }
