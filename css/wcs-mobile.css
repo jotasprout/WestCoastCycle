@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	font-family: sans-serif;
+}
+
+#main {
+	position: fixed;
+	width: 960px;
+	left: 0;
+	top: 720px;
+	padding: 10px;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+#garagePix {
+	display: none;
+}
+
+#door {
+	display: none;
+}
+
+#bldg {
+	display: none;
+}
+
+#reveal {
+	display: none;
+}
+
+/*
+@keyframes slidein {
+	from {
+		margin-bottom: 100%;
+		width: 300%;
+	}
+	to {
+		margin-bottom: 0%;
+		width: 100%;
+	}
+}
+*/
