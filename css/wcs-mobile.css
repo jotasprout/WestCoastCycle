@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*
+#map {
+	width: 800px;
+	height: 400px;
+}
+*/
 p {
 	font-family: sans-serif;
 }
