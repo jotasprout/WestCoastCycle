@@ -19,30 +19,15 @@
     </script>		
 
     <link rel="stylesheet" href="css/westCoastStyle2.css" type="text/css">
-
     <link rel='stylesheet' type='text/css' href='https://www.roxorsoxor.com/bootstrap4/css/bootswatch-slate.min.css'>
 	<link rel='stylesheet' type='text/css' href='https://www.roxorsoxor.com/bootstrap4/js/bootstrap.min.js'>
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="favicon.ico">
 	
-	<meta name="description" content="Motorcycle repair located in Tampa, FL. We sell 1000's of new and used cycle salvage parts. We specialize in Honda, Kawasaki, Suzuki and Yamaha motorcycles.">
-
-	<title>West Coast Cycle | Tampa, FL</title>
+	<title>West Coast Cycle, Inc. | Tampa, FL</title>
+	
 </head>
-
-<body>
-
-		<div id="garagePix">
-			<div id="door">
-				<img src="imgs/garageDoor2.png">
-			</div>
-
-			<div id="reveal"><h1>What's up, Doc?</h1></div>
-
-			<div id="bldg">
-				<img src="imgs/garageBldg2.png">
-			</div>
-		</div>
+    <body>
 
 		<div id="main">
 			<nav>
@@ -55,18 +40,36 @@
 				</ul>
 			</nav>
 		</div>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56408.581346408646!2d-82.41430361875686!3d27.91619870117251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c5410def7517%3A0x1ed1cab163e70c97!2sWest+Coast+Cycle%2C+Inc!5e0!3m2!1sen!2sus!4v1538341202572" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
 
 		<footer>
 			<p>West Coast Cycle Inc &bull; 4511 Causeway Blvd &bull; Tampa Florida 33619 &bull; <a href="tel:813-247-2344">813-247-2344</a></p>
 		</footer>
 
+		<!-- google map -->
+<!--
 		<script>
-			$(document).ready(function(){
-				$("#door").animate({
-					'marginTop': "-=600px",
-				}, 5000);
-			});
-		</script>
+			function initMap() {
+			  var myLatLng = {lat: 27.962951, lng: -82.444573};
+			  var mapDiv = document.getElementById('map');
+			  var map = new google.maps.Map(mapDiv, {
+				center: {lat: 27.962951, lng: -82.444573},
+				zoom: 17
+			  });
+			  var marker = new google.maps.Marker({
+				  map: map,
+				  position: myLatLng,
+				  title: 'Sofwerx'
+			  });
+			}
+		  </script>
+		  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+			  async defer></script>
+-->
+
+	  <!-- /google map -->
 
     </body>
 </html>

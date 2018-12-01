@@ -1,0 +1,19 @@
+{
+    "short_name": "WCC",
+    "name": "West Coast Cycle",
+    "description": "Marketing, sales, and inventory of used motorcycles and parts",
+    "icons": [
+        {
+            "src": "imgs/app-icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "imgs/app-icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "ccc",
+    "start_url": "/?utm_source=pwa"
+}

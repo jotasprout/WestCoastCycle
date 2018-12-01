@@ -1,0 +1,1 @@
+/* Magical, awesome service worker stuff goes here */
